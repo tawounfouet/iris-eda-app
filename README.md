@@ -60,5 +60,28 @@ Finaly Create the app and run it on a server :
 - pipenv run streamlit run app_name.py 
 
 
+
 # App Deployement
+### Commit files to git 
 - git add .
+- git commit -m "Iris EDA app deployment"
+- git push  
+
+
+# You Need to have your account already created on heroku
+    - Created your account
+    - Your credentials 
+
+### Heroku setup 
+- heroku login
+- heroku create app_name
+- heroku open app_url_created
+- heroku open
+- git push heroku origin main
+
+
+# Updating an Already deployed App
+- git status
+- git add .
+- git commit -m "Updated App"
+- git push
